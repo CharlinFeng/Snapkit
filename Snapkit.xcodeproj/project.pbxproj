@@ -23,7 +23,7 @@
 		891F64E41C525099005BDE0A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 891F64D61C525099005BDE0A /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		891F64E51C525099005BDE0A /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 891F64D81C525099005BDE0A /* View+MASAdditions.m */; };
 		891F64E61C525099005BDE0A /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 891F64DB1C525099005BDE0A /* ViewController+MASAdditions.m */; };
-		891F64E91C5250F7005BDE0A /* UIView+Snapkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 891F64E81C5250F7005BDE0A /* UIView+Snapkit.m */; };
+		891F64EC1C525BA4005BDE0A /* UIView+Snapkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 891F64EB1C525BA4005BDE0A /* UIView+Snapkit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,8 +62,8 @@
 		891F64D91C525099005BDE0A /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		891F64DA1C525099005BDE0A /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		891F64DB1C525099005BDE0A /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		891F64E71C5250F7005BDE0A /* UIView+Snapkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapkit.h"; sourceTree = "<group>"; };
-		891F64E81C5250F7005BDE0A /* UIView+Snapkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapkit.m"; sourceTree = "<group>"; };
+		891F64EA1C525BA4005BDE0A /* UIView+Snapkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapkit.h"; sourceTree = "<group>"; };
+		891F64EB1C525BA4005BDE0A /* UIView+Snapkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapkit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +121,8 @@
 		891F64991C52507E005BDE0A /* Snapkit */ = {
 			isa = PBXGroup;
 			children = (
+				891F64EA1C525BA4005BDE0A /* UIView+Snapkit.h */,
+				891F64EB1C525BA4005BDE0A /* UIView+Snapkit.m */,
 				891F649A1C52507E005BDE0A /* Lib */,
 			);
 			path = Snapkit;
@@ -130,8 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				891F64C11C525099005BDE0A /* Masonry */,
-				891F64E71C5250F7005BDE0A /* UIView+Snapkit.h */,
-				891F64E81C5250F7005BDE0A /* UIView+Snapkit.m */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -239,7 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				891F64E41C525099005BDE0A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				891F64E91C5250F7005BDE0A /* UIView+Snapkit.m in Sources */,
+				891F64EC1C525BA4005BDE0A /* UIView+Snapkit.m in Sources */,
 				891F64E21C525099005BDE0A /* MASViewConstraint.m in Sources */,
 				891F64DD1C525099005BDE0A /* MASCompositeConstraint.m in Sources */,
 				891F64E31C525099005BDE0A /* NSArray+MASAdditions.m in Sources */,
@@ -400,6 +400,7 @@
 				891F64981C52506C005BDE0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
