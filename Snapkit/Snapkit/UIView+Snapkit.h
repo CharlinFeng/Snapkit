@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Masonry.h"
 
 @interface UIView (Snapkit)
 
@@ -14,7 +15,7 @@
 -(void)make_4Inset:(UIEdgeInsets)inset;
 
 /**  顶部内边距 + 高度  */
--(void)make_topInsets_topHeight:(CGFloat)top left:(CGFloat)left right:(CGFloat)right topHeight:(CGFloat)topHeight;
+-(void)make_topInsets_topHeightWithTop:(CGFloat)top left:(CGFloat)left right:(CGFloat)right topHeight:(CGFloat)topHeight;
 
 /**  左侧内边距 + 宽度  */
 -(void)make_leftInsets_leftWidthWithTop:(CGFloat)top left:(CGFloat)left bottom:(CGFloat)bottom leftWidth:(CGFloat)leftWidth;

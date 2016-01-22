@@ -7,7 +7,7 @@
 //
 
 #import "UIView+Snapkit.h"
-#import "Masonry.h"
+
 
 @implementation UIView (Snapkit)
 
@@ -25,7 +25,7 @@
 }
 
 /**  顶部内边距 + 高度  */
--(void)make_topInsets_topHeight:(CGFloat)top left:(CGFloat)left right:(CGFloat)right topHeight:(CGFloat)topHeight{
+-(void)make_topInsets_topHeightWithTop:(CGFloat)top left:(CGFloat)left right:(CGFloat)right topHeight:(CGFloat)topHeight{
 
     __weak UIView *sv = self.superview;
     if (sv == nil) {return;}
